@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface JLDetailViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *hideTabsButton;
+@property (strong, nonatomic) IBOutlet UIButton *showTabsButton;
 
+- (IBAction)hideTabs:(id)sender;
+- (IBAction)showTabs:(id)sender;
 @end

@@ -8,6 +8,8 @@
 
 #import "JLDetailViewController.h"
 
+#import "JLAppNotifications.h"
+
 @interface JLDetailViewController ()
 
 @end
@@ -27,4 +29,15 @@
 }
 
 
+- (IBAction)hideTabs:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:JLTabHideTabsNotification object:nil];
+    self.hideTabsButton.enabled = NO;
+    self.showTabsButton.enabled = YES;
+}
+
+- (IBAction)showTabs:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:JLTabShowTabsNotification object:nil];
+    self.hideTabsButton.enabled = YES;
+    self.showTabsButton.enabled = NO;
+}
 @end

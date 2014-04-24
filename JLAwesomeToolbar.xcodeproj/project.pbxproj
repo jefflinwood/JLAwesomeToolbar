@@ -23,6 +23,7 @@
 		2844D62E19099EB800E6D227 /* JLAwesomeToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D62D19099EB800E6D227 /* JLAwesomeToolbarTests.m */; };
 		2844D63A19099F2100E6D227 /* JLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D63919099F2100E6D227 /* JLTabViewController.m */; };
 		2844D63D19099F3700E6D227 /* JLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D63C19099F3700E6D227 /* JLDetailViewController.m */; };
+		2844D6401909A13300E6D227 /* JLAppNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D63F1909A13300E6D227 /* JLAppNotifications.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		2844D63919099F2100E6D227 /* JLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLTabViewController.m; path = JLAwesomeToolbar/JLTabViewController.m; sourceTree = "<group>"; };
 		2844D63B19099F3700E6D227 /* JLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDetailViewController.h; sourceTree = "<group>"; };
 		2844D63C19099F3700E6D227 /* JLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDetailViewController.m; sourceTree = "<group>"; };
+		2844D63E1909A13300E6D227 /* JLAppNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAppNotifications.h; sourceTree = "<group>"; };
+		2844D63F1909A13300E6D227 /* JLAppNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAppNotifications.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,6 @@
 		2844D5F619099EB800E6D227 = {
 			isa = PBXGroup;
 			children = (
-				2844D63719099EF300E6D227 /* View Controllers */,
 				2844D60819099EB800E6D227 /* JLAwesomeToolbar */,
 				2844D62719099EB800E6D227 /* JLAwesomeToolbarTests */,
 				2844D60119099EB800E6D227 /* Frameworks */,
@@ -119,6 +121,7 @@
 		2844D60819099EB800E6D227 /* JLAwesomeToolbar */ = {
 			isa = PBXGroup;
 			children = (
+				2844D63719099EF300E6D227 /* View Controllers */,
 				2844D61119099EB800E6D227 /* AppDelegate.h */,
 				2844D61219099EB800E6D227 /* AppDelegate.m */,
 				2844D61419099EB800E6D227 /* Main.storyboard */,
@@ -126,6 +129,8 @@
 				2844D61819099EB800E6D227 /* ViewController.m */,
 				2844D61A19099EB800E6D227 /* Images.xcassets */,
 				2844D60919099EB800E6D227 /* Supporting Files */,
+				2844D63E1909A13300E6D227 /* JLAppNotifications.h */,
+				2844D63F1909A13300E6D227 /* JLAppNotifications.m */,
 			);
 			path = JLAwesomeToolbar;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				2844D63C19099F3700E6D227 /* JLDetailViewController.m */,
 			);
 			name = "View Controllers";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +277,7 @@
 				2844D63D19099F3700E6D227 /* JLDetailViewController.m in Sources */,
 				2844D61919099EB800E6D227 /* ViewController.m in Sources */,
 				2844D61319099EB800E6D227 /* AppDelegate.m in Sources */,
+				2844D6401909A13300E6D227 /* JLAppNotifications.m in Sources */,
 				2844D60F19099EB800E6D227 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
