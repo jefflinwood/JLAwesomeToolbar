@@ -21,6 +21,8 @@
 		2844D62419099EB800E6D227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2844D60619099EB800E6D227 /* UIKit.framework */; };
 		2844D62C19099EB800E6D227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2844D62A19099EB800E6D227 /* InfoPlist.strings */; };
 		2844D62E19099EB800E6D227 /* JLAwesomeToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D62D19099EB800E6D227 /* JLAwesomeToolbarTests.m */; };
+		2844D63A19099F2100E6D227 /* JLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D63919099F2100E6D227 /* JLTabViewController.m */; };
+		2844D63D19099F3700E6D227 /* JLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D63C19099F3700E6D227 /* JLDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		2844D62919099EB800E6D227 /* JLAwesomeToolbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLAwesomeToolbarTests-Info.plist"; sourceTree = "<group>"; };
 		2844D62B19099EB800E6D227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2844D62D19099EB800E6D227 /* JLAwesomeToolbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAwesomeToolbarTests.m; sourceTree = "<group>"; };
+		2844D63819099F2100E6D227 /* JLTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLTabViewController.h; path = JLAwesomeToolbar/JLTabViewController.h; sourceTree = "<group>"; };
+		2844D63919099F2100E6D227 /* JLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLTabViewController.m; path = JLAwesomeToolbar/JLTabViewController.m; sourceTree = "<group>"; };
+		2844D63B19099F3700E6D227 /* JLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDetailViewController.h; sourceTree = "<group>"; };
+		2844D63C19099F3700E6D227 /* JLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		2844D5F619099EB800E6D227 = {
 			isa = PBXGroup;
 			children = (
+				2844D63719099EF300E6D227 /* View Controllers */,
 				2844D60819099EB800E6D227 /* JLAwesomeToolbar */,
 				2844D62719099EB800E6D227 /* JLAwesomeToolbarTests */,
 				2844D60119099EB800E6D227 /* Frameworks */,
@@ -150,6 +157,17 @@
 				2844D62A19099EB800E6D227 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2844D63719099EF300E6D227 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2844D63819099F2100E6D227 /* JLTabViewController.h */,
+				2844D63919099F2100E6D227 /* JLTabViewController.m */,
+				2844D63B19099F3700E6D227 /* JLDetailViewController.h */,
+				2844D63C19099F3700E6D227 /* JLDetailViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2844D63A19099F2100E6D227 /* JLTabViewController.m in Sources */,
+				2844D63D19099F3700E6D227 /* JLDetailViewController.m in Sources */,
 				2844D61919099EB800E6D227 /* ViewController.m in Sources */,
 				2844D61319099EB800E6D227 /* AppDelegate.m in Sources */,
 				2844D60F19099EB800E6D227 /* main.m in Sources */,
